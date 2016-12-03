@@ -58,7 +58,7 @@
 	<!-- aop -->
 	<aop:config>
 		<aop:advisor advice-ref="txAdvice"
-			pointcut="execution(* com.dy.ssm.service.impl.*.*(..))" />
+			pointcut="execution(* com.dy.biz.service.impl.*.*(..))" />
 	</aop:config>
 
 	<!-- mapper扫描器 -->
